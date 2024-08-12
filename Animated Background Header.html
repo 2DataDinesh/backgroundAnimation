@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!-- saved from url=(0061)https://visigami.com/ElCodigo/animated-background-header.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Animated Background Header</title>
+	<style type="text/css">
+		.large-header{
+			position: relative;
+			width: 100%;
+			background: #111;
+			overflow: hidden;
+			background-size: cover;
+			background-position: center center;
+			z-index: 1;
+		}
+
+		.demo .large-header{
+			background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
+		}
+
+		.main-title{
+			position: absolute;
+			margin: 0;
+			padding: 0;
+			color: #f9f1e9;
+			text-align: center;
+			top:50%;
+			left: 50%;
+			-webkit-transform: translate3d(-50%,-50%,0);
+			transform: translate(-50%,-50%,0);
+		}
+
+		.demo .main-title{
+			text-transform: uppercase;
+			font-size: 4.2em;
+			letter-spacing: 0.1em;
+		}
+
+		.main-title .thin{
+			font-weight: 200;
+		}
+
+		@media only screen and (max-width: 768px){
+			.demo .main-title{
+				font-size: 3em;
+			}
+		}
+	</style>
+<link rel="stylesheet" href="./Animated Background Header_files/css2"><link rel="stylesheet" href="./Animated Background Header_files/css2"></head>
+<body>
+
+	<div class="container demo">
+		<div class="content">
+			<div id="large-header" class="large-header" style="height: 743px;">
+				<canvas id="demo-canvas" width="1462" height="743"></canvas>
+				<h1 class="main-title">
+					<span class="thin">Explore</span> Space
+				</h1>
+			</div>
+		</div>
+	</div>
+
+
+<script type="text/javascript" src="./Animated Background Header_files/TweenLite.min.js.download"></script>
+<script type="text/javascript" src="./Animated Background Header_files/EasePack.min.js.download"></script>
+<script type="text/javascript" src="./Animated Background Header_files/demo.js.download"></script>
+
+
+
+<div id="platstack_root" style="position: fixed; top: 10px; right: 10px; z-index: 2147483647;"><template shadowrootmode="open"><style></style><div id="platstack_shadow_root"></div></template></div><platstack-highlight-options style="position: fixed; z-index: 2147483647;"><template shadowrootmode="open"><style><style data-emotion="platstack-highlight" data-s="">.platstack-highlight-advny6-MuiPopper-root{}</style></style><div id="platstack_highlight_options_shadow_root"></div></template></platstack-highlight-options></body></html>
